@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #07130e;
+    color: white;
+}
+
+header {
+    background-color: #050908;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ec3190;
+}
+
+header h1 {
+    color: #ff58ae;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff58ae;
+}
+
+.portada {
+    background: linear-gradient(135deg, #123b28, #07130e);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.portada h2 {
+    font-size: 45px;
+    color: #ff58ae;
+}
+
+section {
+    padding: 45px 10%;
+}
+
+section h2 {
+    color: #ff58ae;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+#formulario {
+    background-color: #10271b;
+}
+
+form {
+    max-width: 550px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 12px;
+    border: 2px solid #547461;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ec3190;
+    color: white;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c91e76;
+}
+
+#mensaje {
+    font-weight: bold;
+    color: #b9f28a;
+}
+
+footer {
+    background-color: #050908;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ec3190;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .portada h2 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 30px 6%;
+    }

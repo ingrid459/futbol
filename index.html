@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scarlett Camberos - Fútbol Femenil</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header>
+    <h1>⚽ Scarlett Camberos</h1>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#biografia">Biografía</a>
+        <a href="#trayectoria">Trayectoria</a>
+        <a href="#formulario">Formulario</a>
+    </nav>
+</header>
+
+<section id="inicio" class="portada">
+    <h2>Scarlett Camberos</h2>
+    <p>Talento, pasión y orgullo del fútbol femenil.</p>
+</section>
+
+<section id="biografia">
+    <h2>Biografía</h2>
+    <p>
+        Scarlett Camberos es una futbolista mexicana nacida
+        el 20 de noviembre del año 2000 en San Diego,
+        California. Se desempeña como delantera y ha
+        representado a México en el fútbol femenil.
+    </p>
+</section>
+
+<section id="trayectoria">
+    <h2>Trayectoria deportiva</h2>
+    <ul>
+        <li>UC Irvine Anteaters</li>
+        <li>Club América Femenil</li>
+        <li>Angel City FC</li>
+        <li>Bay FC</li>
+    </ul>
+</section>
+
+<section id="formulario">
+    <h2>Formulario de Scarlett Camberos</h2>
+    <p>Completa los siguientes datos sobre la futbolista.</p>
+
+    <form id="formularioScarlett">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"
+        maxlength="100" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo"
+        required>
+
+        <label for="tema">Tema sobre Scarlett Camberos:</label>
+        <select id="tema" name="tema" required>
+            <option value="">Selecciona un tema</option>
+            <option value="Biografía">Biografía</option>
+            <option value="Trayectoria">Trayectoria</option>
+            <option value="Club América Femenil">Club América Femenil</option>
+            <option value="Selección Mexicana">Selección Mexicana</option>
+            <option value="Logros">Logros</option>
+        </select>
+
+        <label for="comentario">Tu comentario:</label>
+        <textarea id="comentario" name="comentario"
+        rows="5" maxlength="500" required></textarea>
+
+        <button type="submit">Enviar formulario</button>
+
+        <p id="mensaje"></p>
+
+    </form>
+</section>
+
+<footer>
+    <p>Scarlett Camberos | Fútbol Femenil</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
